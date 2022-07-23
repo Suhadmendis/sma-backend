@@ -56,6 +56,6 @@ class Operation:
         for friend in user.friends():
             ground_level_following.append(friend.screen_name)
 
-        return "user"
+        return user
 
     # def temptemp(verifiedObject, name = "default"):
